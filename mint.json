@@ -1,0 +1,217 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Newhote Software",
+  "theme": "prism",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/images/favicon.svg",
+  "colors": {
+    "primary": "#800080",
+    "light": "#8427e2",
+    "dark": "#360065",
+    "anchors": {
+      "from": "#360065",
+      "to": "#8427e2"
+    }
+  },
+  "versions": [
+    {
+      "name": "English",
+      "locale": "en"
+    },
+    {
+      "name": "Português",
+      "locale": "pt"
+    },
+    {
+      "name": "Español",
+      "locale": "es"
+    }
+  ],
+  "defaultVersion": "English",
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:hi@mintlify.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
+  },
+  "tabs": [
+    {
+      "name": "API Documentation",
+      "version": "English",
+      "url": "en/api-reference"
+    },
+    {
+      "name": "API Documentacione",
+      "version": "Español",
+      "url": "es/api-reference"
+    },
+    {
+      "name": "API Documentação",
+      "version": "Português",
+      "url": "pt/api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Cloud PMS",
+      "version": "English",
+      "icon": "images/ico/logo_pms.svg",
+      "url": "en/cloudpms/Snapshot"
+    },
+    {
+      "name": "Cloud PMS",
+      "version": "Español",
+      "icon": "images/ico/logo_pos.svg",
+      "url": "es/cloudpms/Snapshot"
+    },
+    {
+      "name": "Cloud PMS",
+      "version": "Português",
+      "icon": "images/ico/logo_event.png",
+      "url": "pt/cloudpms/Snapshot"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "version": "English",
+      "pages":[
+        "en/introduction",
+        "en/quickstart",
+        "en/development"
+      ]
+    },
+    {
+      "group": "Empezar",
+      "version": "Español",
+      "pages":[
+        "es/introduction",
+        "es/quickstart",
+        "es/development"
+      ]
+    },
+    {
+      "group": "Comece aqui",
+      "version": "Português",
+      "pages":[
+        "pt/introduction",
+        "pt/quickstart",
+        "pt/development"
+      ]
+    },
+    {
+      "group": "Cloud PMS",
+      "version": "English",
+      "pages": [
+        "en/cloudpms/Snapshot"
+      ]
+    },
+    {
+      "group": "Cloud PMS",
+      "version": "Español",
+      "pages": [
+        "es/cloudpms/Snapshot"
+      ]
+    },
+    {
+      "group": "Cloud PMS",
+      "version": "Português",
+      "pages": [
+        "pt/cloudpms/Snapshot"
+      ]
+    },
+    {
+      "group": "Reservations",
+      "version": "English",
+      "pages": [
+        "en/cloudpms/booking_manager",
+        "en/cloudpms/reservation_history",
+        "en/cloudpms/new_reservation",
+        "en/cloudpms/groups_manager",
+        "en/cloudpms/availability"
+      ]
+    },
+    {
+      "group": "Reservas",
+      "version": "Español",
+      "pages": [
+        "es/cloudpms/booking_manager",
+        "es/cloudpms/reservation_history",
+        "es/cloudpms/new_reservation",
+        "es/cloudpms/groups_manager",
+        "es/cloudpms/availability"
+      ]
+    },
+    {
+      "group": "Reservas",
+      "version": "Português",
+      "pages": [
+        "pt/cloudpms/booking_manager",
+        "pt/cloudpms/reservation_history",
+        "pt/cloudpms/new_reservation",
+        "pt/cloudpms/groups_manager",
+        "pt/cloudpms/availability"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "version": "English",
+      "pages": [
+        "en/api-reference/introduction"
+      ]
+    },
+    {
+      "group": "API Documentacione",
+      "version": "Español",
+      "pages": [
+        "es/api-reference/introduction"
+      ]
+    },
+    {
+      "group": "API Documentação",
+      "version": "Português",
+      "pages": [
+        "pt/api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "version": "English",
+      "pages": [
+        "en/api-reference/endpoint/get",
+        "en/api-reference/endpoint/create",
+        "en/api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "version": "Español",
+      "pages": [
+        "es/api-reference/endpoint/get",
+        "es/api-reference/endpoint/create",
+        "es/api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "version": "Português",
+      "pages": [
+        "pt/api-reference/endpoint/get",
+        "pt/api-reference/endpoint/create",
+        "pt/api-reference/endpoint/delete"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://www.newhotel.com",
+    "github": "https://www.newhotel.com",
+    "linkedin": "https://www.newhotel.com"
+  }
+}
