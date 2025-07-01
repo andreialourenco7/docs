@@ -88,7 +88,9 @@
       "group": "Releases",
       "version": "English",
       "pages":[
-        "en/releases/Releases"
+        "en/releases/Releases",
+        "releases_layout02",
+        "releases_layout03"
       ]
     },
     {
