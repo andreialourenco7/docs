@@ -84,6 +84,13 @@
     }
   ],
   "navigation": [
+      {
+      "group": "Releases",
+      "version": "English",
+      "pages":[
+        "en/releases/Releases"
+      ]
+    },
     {
       "group": "Get Started",
       "version": "English",
