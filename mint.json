@@ -56,6 +56,11 @@
       "name": "API Documentação",
       "version": "Português",
       "url": "pt/api-reference"
+    },
+    {
+      "name": "Releases",
+      "version": "English",
+      "url": "en/releases"
     }
   ],
   "anchors": [
@@ -160,13 +165,7 @@
         "pt/cloudpms/availability"
       ]
     },
-    {
-      "group": "API Documentation",
-      "version": "English",
-      "pages": [
-        "en/api-reference/introduction"
-      ]
-    },
+
     {
       "group": "API Documentacione",
       "version": "Español",
