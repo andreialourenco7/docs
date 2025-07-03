@@ -7,7 +7,7 @@ The Booking Manager window displays all hotel reservations in real time. Here, y
 
 To access the Booking Manager, use the side menu by clicking on "**Reservations**" and then selecting "**Booking Manager**"
 
-### Filter Area
+## Filter Area
 
 A filter area is available, allowing for quick and advanced reservation filtering. This area can be expanded by clicking the blue arrow, revealing additional fields and enabling more precise searches based on various criteria.
 
@@ -166,4 +166,89 @@ A filter area is available, allowing for quick and advanced reservation filterin
   >
   > **Checked** ( <Icon icon="check" color="#000000" /> )– Displays only reservations with an open account.
   >
-  > **Crossed** (X) – Excludes reservations with an open account, showing only those with closed accounts.
+  > **Crossed** ( X ) – Excludes reservations with an open account, showing only those with closed accounts.
+- **[Unlocked Account]** – Use this checkbox to filter reservations according to the account’s lock status. It allows three different filtering options:
+
+  > **Empty** – Shows all reservations, regardless of whether the account is locked or unlocked.
+  >
+  > **Checked** ( <Icon icon="check" color="#000000" /> ) – Displays only reservations with unlocked accounts.
+  >
+  > **Crossed** ( X ) – Excludes reservations with unlocked accounts, showing only those with locked accounts.
+- **[Overbooked]** – Use this checkbox to filter reservations based on their overbooking status. It allows three different filtering options:
+
+  > **Empty** – Shows all reservations, regardless of whether they are overbooked or not.
+  >
+  > **Checked** ( <Icon icon="check" color="#000000" /> ) –  Filters reservations that are marked as overbooked.
+  >
+  > **Crossed** ( X ) – Excludes overbooked reservations, showing only those that are not overbooked.
+- **[External Reservations]** – To filter reservations based on whether they were created externally (e.g., via external chanenel). It allows three different filtering options:
+
+  > **Empty** – Shows all reservations, regardless of their origin.
+  >
+  > **Checked** ( <Icon icon="check" color="#000000" /> ) –  Filters reservations created through external sources.
+  >
+  > **Crossed** ( X ) – Excludes external reservations, showing only those created internally.
+- **[Exclude Check-Outs]** – This checkbox allows filtering reservations based on their check-out status in three ways:
+
+  > **Empty** – Includes both checked-out and non-checked-out reservations.
+  >
+  > **Checked** ( <Icon icon="check" color="#000000" /> ) –  Excludes reservations with completed check-outs.
+  >
+  > **Crossed** ( X ) – Includes only reservations that have already checked-out.
+- **[Exclude No-Shows]** – This checkbox allows filtering reservations based on their no-show status in three ways:
+
+  > **Empty** – Includes all reservations, including no-show reservations.
+  >
+  > **Checked** ( <Icon icon="check" color="#000000" /> ) –  Excludes reservations marked as no-shows.
+  >
+  > **Crossed** ( X ) – Includes only reservations marked as no-shows.
+- **[Exclude No-Shows without Guarantee (Occupancy)]** – This checkbox allows filtering reservations based on no-shows without guarantee status and is checked by default, meaning such no-shows are excluded.
+- **[Extra Allotment]** – This checkbox allows filtering reservations based on whether they are part of an extra allotment. It provides three filtering options:
+
+  > **Empty** – Includes all reservations, regardless of extra allotment status.
+  >
+  > **Checked** ( <Icon icon="check" color="#000000" /> ) –  Filters reservations that are part of an extra allotment.
+  >
+  > **Crossed** ( X ) – Excludes reservations that are part of an extra allotment.
+- **Shared** –
+
+  > **Empty** –
+  >
+  > **Checked** ( <Icon icon="check" color="#000000" /> ) –
+  >
+  > **Crossed** ( X ) –
+- **ADR** – This filter it is checked by default, showing the ADR (Average Daily Rate) information for each reservation. When unchecked, the ADR column will be hidden.
+- **Show Balance** – This it is checked by default, showing the balance for each reservation. Unchecking the box will hide the balance information. When this checkbox is checked, the **Exclude Balanced** filter becomes available.
+- **Exclude Balanced** – This checkbox allows filtering reservations based on their balance status. It is only available when the **Show Balance** checkbox is checked. When selected, it excludes fully paid reservations, displaying only those with an pending balance.
+- **[Show Comments in Export]** – This checkbox when checked, comments associated with reservations will be included in the exported file.  when exporting booking information (via PDF, Excel, or HTML export options).
+
+### Filters Buttons
+
+This section contains action buttons that allow users to execute or reset the applied filters. These controls are essential for managing the search process and refreshing the displayed reservation list based on selected criteria.
+
+<img
+  src="/images/filters_buttons.png"
+  alt="Filters Buttons Pn"
+  title="Filters Buttons Pn"
+  style={{ width:"57%" }}
+/>
+
+Each button has a specific function, as described below:
+
+- **Clear Filter** - Removes all selected filter values and resets the filter fields to their default state, without affecting the data in the table. Use this button to start a new search from scratch.
+  
+- **Filters** - The Filters dropdown offers tools to manage saved filters, allowing  to quickly apply frequently used filter configurations without having to manually set each field.
+
+
+
+  <img
+    src="/images/02.filters_btn_filters.png"
+    alt="02 Filters Btn Filters Pn"
+    style={{ width:"25%" }}
+  />
+
+  
+- **Classifiers** -
+
+  
+- **Search** -
