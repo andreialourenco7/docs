@@ -1,0 +1,75 @@
+---
+title: "Release Notes – July 3, 2025"
+description: "Applications: PMS, SPA, Interfaces, POS HUB, Channels"
+---
+
+## PMS
+
+### Updates and New Features
+
+<Check>
+  Adjusted the “Description” column in the logs table to display longer entries more clearly.
+</Check>
+
+<Check>
+  Implemented a warning notification when an invoice series reaches its maximum number.
+</Check>
+
+<Check>
+  Improved the logic of the automatic room assignment system.
+</Check>
+
+### Bugs and Resolved Issues
+
+<Danger>
+  Fixed issue preventing the assignment of accommodations to reservations marked as no-\
+  show, even when availability existed for the corresponding room type
+</Danger>
+
+<Danger>
+  Fixed XML format error in MIR-SES.HOSPEDAJE caused by phone number exceeding 20 characters.
+</Danger>
+
+<Danger>
+  Fixed issue preventing creation of a new user with a previously deleted username.
+</Danger>
+
+<Danger>
+  Corrected duplicate CPF error in reservations.
+</Danger>
+
+<Danger>
+  Fixed "Unexpected error processing request" when assigning a contact in “Companies” from the "Company Contacts" tab.
+</Danger>
+
+<Danger>
+  Corrected the calculation logic for detracción services: when invoicing includes multiple services with different detracción rates, the system should prioritize the highest applicable percentage.
+</Danger>
+
+<Danger>
+  (PMS; Channels) - Fixed issue where reservations from EGDS did not respect the configured booking status in Booking Manager.
+</Danger>
+
+## SPA
+
+### Updates and New Features
+
+<Check>
+  Activated the Add and Print options in Clinical History – Nutrition.
+</Check>
+
+## INTERFACES
+
+### Updates and New Features
+
+<Check>
+  Implemented the new Open API Flyr interface.   [**<u>More info</u>**](/en/cloudpms/marketplace)
+</Check>
+
+## POS HUB
+
+### Updates and New Features
+
+<Check>
+  Adjusted font size for notes in the Kitchen module.
+</Check>
