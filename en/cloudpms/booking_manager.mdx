@@ -236,16 +236,156 @@ This section contains action buttons that allow users to execute or reset the ap
 Each button has a specific function, as described below:
 
 - **Clear Filter** - Removes all selected filter values and resets the filter fields to their default state, without affecting the data in the table. Use this button to start a new search from scratch.
-
 - **Filters** - The Filters dropdown offers tools to manage saved filters, allowing  to quickly apply frequently used filter configurations without having to manually set each field.
 
-<img
+  <img
     src="/images/02.filters_btn_filters.png"
     alt="02 Filters Btn Filters Pn"
     style={{ width:"25%" }}
+  />
+
+> 1. Select the desired filters and click "**Save as**".
+> 2. The ****"Save filter as"**** window will appear.
+>
+>    <img
+>      src="/images/03.filters_save_window.png"
+>      alt="03 Filters Save Window Pn"
+>      title="03 Filters Save Window Pn"
+>      style={{ width:"65%" }}
+>    />
+>
+>    All input fields are required:
+>
+>    **- Name** – A clear and identifiable name for the filter.
+>
+>    **- Description** – A brief explanation of the filter's function.
+>    - The following options are available:
+>
+>    **- Public** – makes the filter available to all hotel users.
+>
+>    **- Button** – creates a shortcut button in the top ribbon.
+>    - **Auto Search** – automatically applies the filter when Booking Manager is opened.
+> 3. Click “**Save filter**” to finalize and store the filter configuration.
+> 4. A list of existing custom filters will be displayed, with the following available actions:
+>
+>    **Apply** – Executes the saved filter with its predefined criteria.
+>
+>    **Edit** – Opens filter's configuration window to modify the name, description, and public, button and Auto Search options).
+>
+>    <Warning>
+>      _Note: Editing does not change the selected filter criteria._
+>    </Warning>
+>    **Remove** – Deletes the filter.
+
+- **Search** - After configuring the desired filter criteria, click "Search" button to apply the filters.
+
+  This action will refresh the results list based on the selected conditions.
+
+### Classifiers Button
+
+<img
+  src="/images/04.filters_classifiers.png"
+  alt="04 Filters Classifiers Pn"
+  title="04 Filters Classifiers Pn"
+  style={{ width:"26%" }}
 />
 
-- **Classifiers** -
+The Classifiers dropdown provides quick navigation to configuration sections. Selecting one of the available options opens the corresponding setup screen.
+
+Available options:
+
+- **Guarantee Types**
+- **Discount Types**
+- **Unexpected Departures**
+- **Workstations**
+- **Hotel Pension Modes**
+
+This tool facilitates direct access to classifier settings relevant to the booking and operations process.
+
+### Fixed Filters
+
+<img
+  src="/images/09.fixed_filters.png"
+  alt="09 Fixed Filters Pn"
+  title="09 Fixed Filters Pn"
+  style={{ width:"20%" }}
+/>
+
+There are three fixed filters available in **Booking Manager**, also accessible in **Room Planning** and the **Interactive Dashboard**, designed to provide quick access to key booking status:
+
+1. **Pending Check-In**\
+   Displays all reservations scheduled to check in today.
+
+   > Filter logic:
+   > - Arrival date = _Today_
+   > - Booking status = _Booked_
+2. **Pending Check-Out**\
+   Displays all reservations scheduled to check out today.
+
+   > Filter logic:
+   > - Departure date = _Today_
+   > - Booking status = _Checked-in_
+3. **In House**\
+   Displays all active reservations that are currently checked in.
+
+   > Filter logic:
+   > - Booking status = _Checked-in_
+
+<Warning>
+   These filters are preconfigured and cannot be edited or removed.
+</Warning>
 
 
-- **Search** - 
+### Add Button
+
+<img
+  src="/images/05.add.png"
+  alt="05 Add Pn"
+  title="05 Add Pn"
+  style={{ width:"10%" }}
+/>
+
+Click the **"Add"** button to create a new booking.
+
+This action opens the reservation form, where all required guest and booking details must be entered
+
+> **Note:** This action opens the reservation screen, where detailed booking information is entered.\
+> For a full explanation of this screen and its fields, see:\
+> <Icon icon="link" color="#fa0000" /> <u>Reservation screen overview</u>
+
+### New Group Button
+
+<img
+  src="/images/06.New_group.png"
+  alt="06 New Group Pn"
+  title="06 New Group Pn"
+  style={{ width:"18%" }}
+/>
+
+Click the "**New Group"** button to create a new group reservation.
+
+Upon clicking, a confirmation modal will appear asking whether to continue to the **Inventory** or **Reservation** screen:
+
+- **Inventory** – Opens the group inventory screen for preallocating room blocks.
+- **Reservation** – Opens the group reservation form to create a group booking directly.
+
+  <img
+    src="/images/08.new_group_modal.png"
+    alt="08 New Group Modal Pn"
+    title="08 New Group Modal Pn"
+    style={{ width:"53%" }}
+  />
+
+After selecting the desired option, the corresponding screen will open to complete the process.
+
+> **Note:** For detailed guidance on each of these screens, see:\
+> <Icon icon="link" color="#fa0000" /> <u>Group Inventory</u>
+> <Icon icon="link" color="#fa0000" /> <u>Group Reservation Screen</u>
+
+### Actions Button
+
+<img
+  src="/images/07.actions_btn.png"
+  alt="07 Actions Btn Pn"
+  style={{ width:"15%" }}
+/>
