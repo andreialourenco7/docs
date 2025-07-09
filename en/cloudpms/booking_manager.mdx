@@ -435,7 +435,7 @@ This actions allows you to apply changes to several reservations simultaneously,
 
 This is especially useful when reservations share common characteristics such as check-in date, room type, or rate.
 
-#### Steps:
+**Steps:**
 
 1. Select the reservations with shared details.
 2. Click the **Multiple** action button.
@@ -447,19 +447,86 @@ A **Multiple Changes** window will open, divided into two sections:
 - **Top Section** – Where you enter the changes to apply (e.g., modify rate, change date).
 - **Bottom Section** – Displays the list of selected reservations that will receive the changes.
 
-Click **"Save" **to confirm and apply the updates across all selected bookings.
+Click \*\*"Save" \*\*to confirm and apply the updates across all selected bookings.
 
 > **Note:** For detailed guidance on each of these screens, see:\
 > <Icon icon="link" color="#fa0000" /> <u>Multiple Reservations</u>
 
 ### Files
 
-- **Guests**
-- **Check-In**
-- **Quick Check-In**
-- **Check-Out**
-- **Quick Check-Out**
-- **Undo**
+The files action allows to attach documents to one or more reservations.
+
+> **How to add files:**
+>
+> 1. Select one or more reservations from the list.
+> 2. Click the "Actions\*\*"\*\* button and choose "Files" from the dropdown menu.
+> 3. A modal window "Reservation Documents" will open showing existing files.
+> 4. Click the "Add" button to select and upload a new file.
+>
+>    ![03 Action Files Pn](/images/03_action_files.png)
+> 5. Upon upload, the file appears in the modal's table. It can then be **downloaded** or **deleted** using the corresponding action buttons.
+>
+>    ![04 Action Files01 Pn](/images/04_action_files01.png)
+
+<Info>
+  Supported file formats include PDF, Excel, Word, and common image types.
+</Info>
+
+### **Guests**
+
+### **Check-In**
+
+The check-in action is available from the "Actions" button for reservation with status "reserved"**.** Clicking the "Check-in" option will open a dedicated check-in window.
+
+> **Note:** For more details, see the Check-in Reservation section of the manual.\
+> <Icon icon="link" color="#fa0000" /> <u>Check-in Reservation</u>
+
+### **Quick Check-In**
+
+The "Quick check-in" action allows a reservation to be checked in without opening the check-in window. This option is only available for reservations that have a \*\*room assigned \*\*and the assigned room is marked as clean.
+
+To perform a quick check-in, select one or more reservations by ticking their checkboxes, click on the "Actions\*\*"\*\* button, and choose the "Quick Check-in\*\*"\*\* option.
+
+If the conditions are met, the status of the selected reservations will immediately change to "Check-in" status.
+
+### **Check-Out**
+
+The "Check-out action allows a reservation to be checked out. To proceed, select the reservation, click on the "Actions" button, and choose the "Check-out" option. This will open the checkout window.
+
+The checkout window contains three tabs: **General**, **Guests**, and **Payment Authorizations**.
+
+- In the **General** tab, reservation details such as reservation number, arrival and departure dates, origin, and segment are displayed. These fields are read-only.
+- In the **Guests** tab, all guest profiles associated with the reservation are listed.
+- The **Payment Authorizations** tab shows
+
+> **Note:** For more details, see the Check-out Reservation section of the manual.\
+> <Icon icon="link" color="#fa0000" /> <u>Reservation Check-out </u>
+
+<Warning>
+  If the system is configured to prevent checkout when pending movements exist, the reservation must be invoiced before the checkout can be completed.
+</Warning>
+
+### **Quick Check-Out**
+
+The quick check-out action allows a reservation to be checked out without opening the checkout window. This option is only available for reservations that have no pending movements in the account.
+
+To perform a quick checkout, select one or more reservations by ticking their checkboxes, click on the "Actions"button, and choose the "Quick Checkout**"** option.
+
+If the conditions are met, the status of the selected reservations will immediately change to "Check-out" satatus. 
+
+### **Undo**
+
+The **Undo** action reverts the last status change made to a reservation. It can be used to undo actions such as check-in, check-out, cancellation, no-show, and overbooking.
+
+To perform the undo, select the reservation, click the "Actions**"** button, and choose the "Undo**"** option.
+
+For example, if a reservation is in "Check-out" status, using the "Undo**"** action will revert it to "check-in" status.
+
+<Warning>
+   This action can only be performed on the**same day**  the **status change **occurred. After the day ends, the undo option is no longer available.
+</Warning>
+
+
 - **Cancel**
 - **No-Show**
 - **Overbooking**
