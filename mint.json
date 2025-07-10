@@ -85,14 +85,21 @@
   ],
   "navigation": [
       {
-      "group": "Releases",
+      "group": "202507_releases",
       "version": "English",
       "pages":[
-        "en/releases/Releases",
-        "en/releases/releases_layout02",
-        "en/releases/releases_layout03",
-        "en/releases/releases_layout04",
-        "en/releases/releases_20250515_rc.28"        
+        "en/202507_releases/01_20250515_rc.28",
+        "en/202507_releases/02_20250515_qa.02"        
+      ]
+    },
+      {
+      "group": "releases_layouts",
+      "version": "English",
+      "pages":[
+        "en/releases_layouts/Realeases",
+        "en/releases_layouts/releases_layout02",
+        "en/releases_layouts/releases_layout03",
+        "en/releases_layouts/releases_layout04",
       ]
     },
     {

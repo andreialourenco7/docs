@@ -1,0 +1,41 @@
+---
+title: "Release Notes – July 3, 2025"
+description: "Applications: PMS, SPA, Interfaces, POS HUB, Channels"
+---
+
+## PMS
+
+### <Icon icon="check" color="#02ad33" size={20} />  **Updates and New Features**
+
+- Adjusted the “Description” column in the logs table to display longer entries more clearly.
+- Implemented a warning notification when an invoice series reaches its maximum number.
+- Improved the logic of the automatic room assignment system.
+
+### <Icon icon="bug" color="#ff0000" size={20} />  **Bugs and Resolved Issues**
+
+- Fixed issue preventing the assignment of accommodations to reservations marked as no-\
+  show, even when availability existed for the corresponding room type
+- Fixed XML format error in MIR-SES.HOSPEDAJE caused by phone number exceeding 20 characters.
+- Fixed issue preventing creation of a new user with a previously deleted username.
+- Corrected duplicate CPF error in reservations.
+- Fixed "Unexpected error processing request" when assigning a contact in “Companies” from the "Company Contacts" tab.
+- Corrected the calculation logic for detracción services: when invoicing includes multiple services with different detracción rates, the system should prioritize the highest applicable percentage.
+- **(PMS; Channels)** - Fixed issue where reservations from EGDS did not respect the configured booking status in Booking Manager.
+
+## SPA
+
+### <Icon icon="check" color="#02ad33" size={20} />  **Updates and New Features**
+
+- Activated the Add and Print options in Clinical History – Nutrition.
+
+## INTERFACES
+
+### <Icon icon="check" color="#02ad33" size={20} />  **Updates and New Features**
+
+- Implemented the new Open API Flyr interface.   [**<u>More info</u>**](/en/cloudpms/marketplace)
+
+## POS HUB
+
+### <Icon icon="check" color="#02ad33" size={20} />  **Updates and New Features**
+
+- Adjusted font size for notes in the Kitchen module.
