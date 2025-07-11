@@ -447,7 +447,7 @@ A **Multiple Changes** window will open, divided into two sections:
 - **Top Section** – Where you enter the changes to apply (e.g., modify rate, change date).
 - **Bottom Section** – Displays the list of selected reservations that will receive the changes.
 
-Click \*\*"Save" \*\*to confirm and apply the updates across all selected bookings.
+Click "Save" confirm and apply the updates across all selected bookings.
 
 > **Note:** For detailed guidance on each of these screens, see:\
 > <Icon icon="link" color="#fa0000" /> <u>Multiple Reservations</u>
@@ -459,7 +459,7 @@ The files action allows to attach documents to one or more reservations.
 > **How to add files:**
 >
 > 1. Select one or more reservations from the list.
-> 2. Click the "Actions\*\*"\*\* button and choose "Files" from the dropdown menu.
+> 2. Click the "Actions" button and choose "Files" from the dropdown menu.
 > 3. A modal window "Reservation Documents" will open showing existing files.
 > 4. Click the "Add" button to select and upload a new file.
 >
@@ -476,16 +476,16 @@ The files action allows to attach documents to one or more reservations.
 
 ### **Check-In**
 
-The check-in action is available from the "Actions" button for reservation with status "reserved"**.** Clicking the "Check-in" option will open a dedicated check-in window.
+The check-in action is available from the "Actions" button for reservation with status "reserved". Clicking the "Check-in" option will open a dedicated check-in window.
 
 > **Note:** For more details, see the Check-in Reservation section of the manual.\
 > <Icon icon="link" color="#fa0000" /> <u>Check-in Reservation</u>
 
 ### **Quick Check-In**
 
-The "Quick check-in" action allows a reservation to be checked in without opening the check-in window. This option is only available for reservations that have a \*\*room assigned \*\*and the assigned room is marked as clean.
+The "Quick check-in" action allows a reservation to be checked in without opening the check-in window. This option is only available for reservations that have a room assigned and the assigned room is marked as clean.
 
-To perform a quick check-in, select one or more reservations by ticking their checkboxes, click on the "Actions\*\*"\*\* button, and choose the "Quick Check-in\*\*"\*\* option.
+To perform a quick check-in, select one or more reservations by ticking their checkboxes, click on the "Actions" button, and choose the "Quick Check-in" option.
 
 If the conditions are met, the status of the selected reservations will immediately change to "Check-in" status.
 
@@ -510,29 +510,135 @@ The checkout window contains three tabs: **General**, **Guests**, and **Payment 
 
 The quick check-out action allows a reservation to be checked out without opening the checkout window. This option is only available for reservations that have no pending movements in the account.
 
-To perform a quick checkout, select one or more reservations by ticking their checkboxes, click on the "Actions"button, and choose the "Quick Checkout**"** option.
+To perform a quick checkout, select one or more reservations by ticking their checkboxes, click on the "Actions"button, and choose the "Quick Checkout" option.
 
-If the conditions are met, the status of the selected reservations will immediately change to "Check-out" satatus. 
+If the conditions are met, the status of the selected reservations will immediately change to "Check-out" satatus.
 
 ### **Undo**
 
 The **Undo** action reverts the last status change made to a reservation. It can be used to undo actions such as check-in, check-out, cancellation, no-show, and overbooking.
 
-To perform the undo, select the reservation, click the "Actions**"** button, and choose the "Undo**"** option.
+To perform the undo, select the reservation, click the "Actions"button, and choose the "Undo" option.
 
-For example, if a reservation is in "Check-out" status, using the "Undo**"** action will revert it to "check-in" status.
+For example, if a reservation is in "Check-out" status, using the "Undo" action will revert it to "check-in" status.
 
 <Warning>
-   This action can only be performed on the**same day**  the **status change **occurred. After the day ends, the undo option is no longer available.
+  This action can only be performed on the **same day**  the **status change** occurred. After the day ends, the undo option is no longer available.
+</Warning>
+
+### **Cancel**
+
+The “Cancel” action allows a reservation to be canceled, as long as it has not yet been checked in.
+
+To cancel a reservation, select it, click on the “Actions” button, and choose “Cancel”.
+
+A cancellation window will open with the following fields:
+
+> <img
+>   src="/images/05_cancel.png"
+>   alt="05 Cancel Pn"
+>   title="05 Cancel Pn"
+>   style={{ width:"63%" }}
+> />
+>
+> **Date** and **User** – Display the user who performed the cancellation and the date of the action. These fields are not editable\*\*.\*\*
+>
+> **Reason** – Cancellation Reason must be selected from the available options in the drop-down menu. This field is **mandatory**.
+>
+> **Comments** – Optional field that allows additional information to be added.
+>
+> After filling in the required fields, confirm by clicking “Ok”.
+
+<Warning>
+  **Notes**:
+
+  - If the reservation has **pending movements**, the system will prevent the cancellation until all movements are invoiced.
+  - The cancellation action does not delete the reservation. Instead, it **changes the status** to “cancelled”, and the reservation remains in the system.
+</Warning>
+
+### **No-Show**
+
+The “No-Show” action is used when the guests of a reservation do not arrive on the expected check-in date. Applying this action changes the reservation status to “No-Show”.
+
+To assign the “No-Show” status, select the reservation, click the “Actions” button, and choose “No Show”.
+
+This will open the “No-Show” window with several options and information:
+
+> <img
+>   src="/images/06_noshow.png"
+>   alt="06 Noshow Pn"
+>   title="06 Noshow Pn"
+>   style={{ width:"60%" }}
+> />
+>
+> **Booking number**, **Arrival date**, and \*\*Departure date - \*\* are displayed but not editable.
+>
+> **Guaranteed for (days)** – Defines the number of days the reservation remains valid.
+>
+> **End of Guarantee** – Sets the date until which the guarantee is valid. After this date, the reservation will automatically be set to ****“No Show”****.
+>
+> **Invoice guarantted days** – Issues an invoice covering the warranty period.
+>
+> **Close account** – Blocks the reservation’s current account to prevent the registration of further movements.
+>
+> Confirm the action by selecting **"Ok"**.
+
+<Warning>
+  **Check-in** can still be completed the following day if needed.
+</Warning>
+
+### Overbooking
+
+The “Overbooking” action is used when a reservation exceeds the hotel’s total occupancy. Applying this action updates the reservation’s status to “Overbooking”.
+
+To mark a reservation as overbooking, select it, click the “Actions” button, and choose “Overbooking”.
+
+This opens the Overbooking window, which includes the following information and fields:
+
+> <img
+>   src="/images/07_overbooking.png"
+>   alt="07 Overbooking Pn"
+>   title="07 Overbooking Pn"
+>   style={{ width:"61%" }}
+> />
+>
+> \*\*Reservation number, Arrival date \*\* and **Departure date** -  are displayed and not editable.
+>
+> **Hotel** - is mandatory and must indicate the name of the hotel where the guest was relocated.
+>
+> **Room -** is optional and can be used to specify the room number at the alternate hotel.
+>
+> **Invoice Overbooking** - allows billing to be issued for the overbooking, if applicable.
+>
+> Fill in the necessary fields and confirm the action by selecting **“Ok”**.
+
+### Change Room
+
+Allows the reassignment of the originally allocated room. This action can be used in cases such as unexpected maintenance issues, upselling, or other valid reasons that justify changing the guest’s accommodation.
+
+### Transfer
+
+Allows an existing reservation to be transferred to another unit within the hotel group.
+
+A new window will open where the destination unit and the accommodation type must be selected.
+
+A second window will then appear showing the original room type. The new room type to be assigned must be selected and confirmed by clicking "Transfer".
+
+> **Note:** For more details, see the Transfer Reservation section of the manual.\
+> <Icon icon="link" color="#fa0000" /> <u>Reservation Transfer</u>
+
+<Warning>
+  **Notes**:
+
+  - Only available when multiple hotels exist in the **cloud database**.
+  - This option is only available for hotels that belong to a hotel **chain **or **group**.
 </Warning>
 
 
-- **Cancel**
-- **No-Show**
-- **Overbooking**
-- **Change Room**
-- **Transfer**
-- **Update Prices**
+### Update Prices 
+
+121
+
 - **UpSell**
 - **Registration Card**
 - **Include Price Details**
