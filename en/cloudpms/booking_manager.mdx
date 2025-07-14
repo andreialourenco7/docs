@@ -631,17 +631,108 @@ A second window will then appear showing the original room type. The new room ty
   **Notes**:
 
   - Only available when multiple hotels exist in the **cloud database**.
-  - This option is only available for hotels that belong to a hotel **chain **or **group**.
+  - This option is only available for hotels that belong to a hotel \*\*chain \*\*or **group**.
 </Warning>
 
+### Update Prices
 
-### Update Prices 
+The Update Prices action recalculates the value of the reservation based on the selected rate.
 
-121
+When this action is used, a confirmation popup appear, click "OK" to proceed with the update.
 
-- **UpSell**
-- **Registration Card**
-- **Include Price Details**
+<img
+  src="/images/booking_manager_actions/08_update_prices.png"
+  alt="08 Update Prices Pn"
+  title="08 Update Prices Pn"
+  style={{ width:"49%" }}
+/>
+
+### UpSell
+
+The Upsell action allows additional services to be added to a reservation. This option is available through the Actions button.
+
+When selected, a new window will open where the upsell details must be entered. After filling in the required fields, confirm the upsell by clicking "Ok".
+
+![09 Upsell Pn](/images/09_upsell.png)
+
+### Registration Card / Key-pass
+
+The "Registration Card / Key-Pass" option is available under the Actions button, providing quick access to these documents without needing to open the full reservation.\
+This action allows the user to generate and access the registration card associated with the selected reservation.
+
+When generating the registration card, the following options are available:
+
+> <img
+>   src="/images/10_keypass_action.png"
+>   alt="10 Keypass Action Pn"
+>   title="10 Keypass Action Pn"
+>   style={{ width:"38%" }}
+> />
+>
+> **Include Price Details**: Displays pricing information on the document.
+>
+> **Guest Lang.**: If enabled, the document is generated in the guest’s language
+
+### Reservation Label
+
+The "Reservation Label option" is available under the Actions button, providing quick access to these documents without needing to open the full reservation. This  action opens a "Reservation Label" window that allows the user to configure and print labels related to a reservation.
+
+The following options are available:
+
+> <img
+>   src="/images/11_res_label_modal.png"
+>   alt="11 Res Label Modal Pn"
+>   title="11 Res Label Modal Pn"
+>   style={{ width:"58%" }}
+> />
+>
+> **By reservation** / **By guest**: Choose whether to generate one label per reservation or per guest.
+>
+> **No. of bags**: Specify the number of bags, if applicable.
+>
+> **Only end label**: When selected, only the final label in the set will be printed.
+>
+> After configuring the desired options, click "**OK"** to generate the label(s).
+
+Reservation Label(s) will then be displayed and can be printed directly or saved as a PDF file.
+
+### Print (Bulletin Reservation)
+
+The "Bulletin Reservation" action is available under the Actions button, through the "Print" option.
+
+This option allows you to print the reservation form pre-filled with the data registered in the reservation.\
+When selected, a window will appear where you can choose which details to include in the bulletin.:
+
+> <img
+>   src="/images/12_bulletin_modal.png"
+>   alt="12 Bulletin Modal Pn"
+>   title="12 Bulletin Modal Pn"
+>   style={{ width:"32%" }}
+> />
+>
+> Select the desired information and click "Ok" to confirm.
+
+The guest bulletin will then be displayed and can be printed directly or saved as a PDF file.
+
+### SPA Schedule
+
+**Spa Schedule**\
+The "Spa Schedule" option allows you to generate and print the schedule of spa services booked for a specific period.
+
+When selected, a configuration window will appear:
+
+- **Group by date**: Tick this box to group appointments by day, making the printed plan easier to read
+- **Language**: Choose the language for the printed schedule; by default, it follows the application's language
+
+After selecting the desired options, click **"OK"** to generate the schedule.\
+The spa schedule can then be printed or saved as a PDF for internal use, staff coordination, or display purposes.
+
+<Warning>
+  This feature is only available if the Cloud – Spa module is active.
+</Warning>
+
+### Include Price Details
+
 - **Guest Lang.**
 - **Reservation Label**
 - **Print**
